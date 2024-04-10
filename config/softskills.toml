@@ -9,16 +9,19 @@ enabled = true # false
 [[skills]]
 title = "Problem Solver"
 icon = "./config/assets/icons/gear.svg"
-text = "I am creative and efficient in identifying and solving technical problems."
+text = "Excels in problem-solving by meticulously analyzing challenges, breaking them down into manageable components."
 
 [[skills]]
 title = "Timely"
 icon = "./config/assets/icons/user.svg"
-text = "I collaborate effectively in multidisciplinary projects and communicate clearly with team members."
-
-
+text = "Demonstrates timeliness in all aspects of work having never missed a deadline while efficiently prioritizing tasks"
 
 [[skills]]
-title = "Effective Communication"
+title = "Adaptable Fast Learner"
 icon = "./config/assets/icons/comment.svg"
-text = "I have the skill to convey ideas clearly and concisely, both technically and non-technically."
+text = "Quickly adjusts to any new project requirements. Constantly goes out opf comfort zone to be a lifelong learner, embracing new technologies and methodologies"
+
+[[skills]]
+title = "Teamwork & Effective Communication"
+icon = "./config/assets/icons/user.svg"
+text = "Contributes to a positive work environment where ideas flourish, productivity improves, and teamwork thrives"
