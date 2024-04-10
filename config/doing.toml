@@ -1,19 +1,24 @@
 [[doing]]
-title = "Mobile Apps"
-icon = "./config/assets/icons/mobile.svg"
-text = "Professional development of applications for iOS and Android."
+title = "Data Analysis & Modeling"
+icon = "./config/assets/icons/DataAnalysis.png"
+text = "Proficiency in extracting insights from data and utilizing statistical methods to improve forecasting accuracy."
 
 [[doing]]
-title = "Scripting"
-icon = "./config/assets/icons/code.svg"
-text = "Automation and task scripting using Python to enhance efficiency and productivity."
-
-[[doing]]
-title = "UI/UX Designing"
-icon = "./config/assets/icons/compass.svg"
-text = "Intuitive and visually appealing user interfaces and user experiences."
+title = "Automation & Scripting"
+icon = "./config/assets/icons/AutomationScripting.png"
+text = " Mastery of coding languages used in both frontend and backend development. The full list can be found at the end of this page. "
 
 [[doing]]
 title = "Web Development"
-icon = "./config/assets/icons/laptop-code.svg"
-text = "High-quality development of sites at the professional level."
+icon = "./config/assets/icons/WebDevelopment.png"
+text = "Robust and scalable web applications to support supply chain solutions. Guaranteed intuitive and attractive UI."
+
+[[doing]]
+title = "Process Optimization"
+icon = "./config/assets/icons/ProcessOptimization.png"
+text = " Streamlining process efficiency of Inventory Management, Demand Planning, Logistics Optimization, Scheduling etc."
+
+[[doing]]
+title = "Software & API"
+icon = "./config/assets/icons/SoftwareAPI.png"
+text = "Knowledgeable in best practices for software architecture and API design, ensuring Scalability, Reliability, and Security."
