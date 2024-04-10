@@ -463,7 +463,6 @@ main {
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
-  box-shadow: var(--shadow-2);
   z-index: 5;
 }
 
@@ -476,7 +475,7 @@ main {
 }
 
 .navbar-link {
-  color: var(--white-2);
+  color: var(--onyx);
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
