@@ -17,7 +17,7 @@
 
     <ol class="timeline-list">
 
-      {% for experience in resume.experience %}
+      {% for experience in resume.experience | sort(attribute='timeline', reverse=true) %}
 
       <li class="timeline-item">
 
