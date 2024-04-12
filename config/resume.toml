@@ -17,13 +17,13 @@ description = "Ensure vendor compliance with quality standards, manage ISO certi
 title = "Demand Forecaster & Supply Chain Management Professional"
 timeline = "2019"
 company = "EPSON Singapore Pte Ltd"
-description = "Develop demand forecasts at multiple levels of aggregation, implement statistical forecast models, preparing budgets & cost analysis, and plan & teach SAP & VBA lessons for staff."
+description = "Develop demand forecasts at multiple levels of aggregation, implement statistical forecast models, prepare budgets & cost analysis, and plan & teach SAP & VBA lessons for staff."
 
 [[experience]]
 title = "Hardware Quality Assurance Auditor"
 timeline = "2018"
 company = "Pactera Singapore Pte Ltd"
-description = "Run tests & debugging tools to analyse the functionality of hardware systems, documenting defects & run output simulations, present quality audit reports."
+description = "Run tests & debugging tools to analyse  functionality of hardware systems, document defects & run output simulations, present quality audit reports."
 
 
 ############## Education config #################
@@ -32,19 +32,19 @@ description = "Run tests & debugging tools to analyse the functionality of hardw
 title = "Bachelor of Science in Digital Supply Chain "
 timeline = "2024 — Present"
 school = "Singapore Institute of Technology"
-description = "Currently studying as full-time student."
+description = "Currently studying as a full-time student."
 
 [[education]]
 title = "Diploma Plus in Business Innovation and Entrepreneurship"
 timeline = "2018 — 2019"
 school = "Republic Polytechnic"
-description = "Studied as full-time student. Inducted into Director's Roll of Honour. Graduating GPA: 3.48 "
+description = "Studied as a full-time student. Inducted into Director's Roll of Honour. Graduating GPA: 3.48 "
 
 [[education]]
 title = "Diploma in Supply Chain Management"
 timeline = "2017 — 2020"
 school = "Republic Polytechnic"
-description = "Studied as full-time student. Graduating GPA: 3.00"
+description = "Studied as a full-time student. Graduating GPA: 3.00"
 
 
 [[education]]
