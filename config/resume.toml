@@ -23,15 +23,16 @@ description = "Develop demand forecasts at multiple levels of aggregation, imple
 title = "Hardware Quality Assurance Auditor"
 timeline = "2018"
 company = "Pactera Singapore Pte Ltd"
-description = "Run tests & debugging tools to analyse the functionality of hardware systems, documenting defects & run output simulations, present quality audit reports"
+description = "Run tests & debugging tools to analyse the functionality of hardware systems, documenting defects & run output simulations, present quality audit reports."
 
 
 ############## Education config #################
 #################################################
 [[education]]
-title = "High school of art and design"
-timeline = "2002 — 2004"
-description = "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+title = "Bachelor of Science in Digital Supply Chain "
+timeline = "2024 — present"
+school = "Singapore Institute of Technology"
+description = "Currently studying as full-time student."
 
 [[education]]
 title = "New york academy of art"
