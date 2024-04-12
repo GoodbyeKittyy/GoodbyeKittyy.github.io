@@ -762,7 +762,7 @@ main {
  * education and experience 
  */
 
-.timeline { margin-bottom: 0px; }
+.timeline { margin-bottom: 20px; }
 
 .timeline .title-wrapper {
   display: flex;
