@@ -8,13 +8,13 @@ company = "Republic Polytechnic"
 description = "Support consultancy projects, research and develop new digital solutions for companies, innovate digital tools for industry projects and commercialization."
 
 [[experience]]
-title = "Supply Chain & Quality Management Professional"
+title = "Supply Chain Management & Quality Management Professional"
 timeline = "2023"
 company = "TAK Products & Services Pte Ltd"
 description = "Ensure vendor compliance with quality standards, manage ISO certification processes, coordinate audits, conduct Quality Management reviews for returns, and compile Quality Management statistics."
 
 [[experience]]
-title = "Demand Forecaster & Supply Chain Professional"
+title = "Demand Forecaster & Supply Chain Management Professional"
 timeline = "2019"
 company = "EPSON Singapore Pte Ltd"
 description = "Develop demand forecasts at multiple levels of aggregation, implement statistical forecast models, preparing budgets & cost analysis, and plan & teach SAP & VBA lessons for staff."
