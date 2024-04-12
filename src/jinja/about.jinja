@@ -133,20 +133,24 @@
         -->
 {% if technologies.enabled %}
 <section class="clients">
-
   <h3 class="h3 service-title">Programming & Software Experience</h3>
-
   <ul class="clients-list">
     {% for icon_name, icon_src in technologies.technologies.items() %}
     <li class="clients-item">
       <a href="#">
-        <img src="{{ icon_src }}" alt="{{ icon_name }} icon" width="80" height="80">
+        {% if icon_src|lower.endswith('.svg') %}
+          <img src="{{ icon_src }}" alt="{{ icon_name }} icon" width="80" height="80">
+        {% elif icon_src|lower.endswith('.png') %}
+          <img src="{{ icon_src }}" alt="{{ icon_name }} icon" width="80" height="80" style="filter: invert(1);"> <!-- Add invert filter for PNG images to make them compatible with dark backgrounds -->
+        {% else %}
+          <span>Unsupported image format for {{ icon_name }}</span> <!-- Handle unsupported image formats -->
+        {% endif %}
         <span style="display: block; text-align: center; color: white; font-size: 18px; margin-top: 5px;">{{ icon_name }}</span> <!-- Display icon name below the image -->
       </a>
     </li>
     {% endfor %}
   </ul>
-
 </section>
 {% endif %}
 </article>
+
