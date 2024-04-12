@@ -30,21 +30,28 @@ description = "Run tests & debugging tools to analyse the functionality of hardw
 #################################################
 [[education]]
 title = "Bachelor of Science in Digital Supply Chain "
-timeline = "2024 — present"
+timeline = "2024 — Present"
 school = "Singapore Institute of Technology"
 description = "Currently studying as full-time student."
 
 [[education]]
-title = "New york academy of art"
-timeline = "2006 — 2007"
-description = "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
+title = "Diploma Plus in Business Innovation and Entrepreneurship"
+timeline = "2017 — 2020"
+school = "Republic Polytechnic"
+description = "Studied as full-time student. Inducted into Director's Roll of Honour. Graduating GPA: 3.45 "
 
 [[education]]
-title = "University school of the arts"
-timeline = "2007 — 2008"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+title = "Diploma in Supply Chain Management"
+timeline = "2017 — 2020"
+school = "Republic Polytechnic"
+description = "Studied as full-time student. Graduating GPA: 3.00"
 
 
+[[education]]
+title = "Higher Nitec in Event Management"
+timeline = "2015 — 2017"
+school = "Institute of Technical Education (College Central)"
+description = "Studied as full-time student. Graduating GPA: 3.217"
 
 
 ############## Skills config ####################
@@ -73,7 +80,7 @@ value = "80%"
 
 [[skill]]
 title = "Supply Chain Management, Research & Analysis"
-value = "680%"
+value = "80%"
 
 ############## Language config ##################
 #################################################
