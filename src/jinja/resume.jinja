@@ -50,7 +50,7 @@
 
     <ol class="timeline-list">
 
-      {% for education in resume.education %}
+      {% for education in resume.education | sort(attribute='timeline', reverse=true) %}
 
       <li class="timeline-item">
 
