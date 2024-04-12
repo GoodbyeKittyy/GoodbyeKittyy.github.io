@@ -762,7 +762,9 @@ main {
  * education and experience 
  */
 
-.timeline { margin-bottom: 30px; }
+.timeline {
+  margin-bottom: 30px;
+}
 
 .timeline .title-wrapper {
   display: flex;
@@ -776,10 +778,13 @@ main {
   margin-left: 45px;
 }
 
-.timeline-item { position: relative; }
+.timeline-item {
+  position: relative;
+}
 
-.timeline-item:not(:last-child) { margin-bottom: 20px; }
-
+.timeline-item:not(:last-child) {
+  margin-bottom: 20px;
+}
 
 .timeline-item-title {
   font-size: var(--fs-6);
@@ -801,6 +806,10 @@ main {
   width: 1px;
   height: calc(100% + 50px);
   background: var(--jet);
+}
+
+.timeline-item:last-child::before {
+  display: none; /* Hide the line before the last .timeline-item */
 }
 
 .timeline-item::after {
