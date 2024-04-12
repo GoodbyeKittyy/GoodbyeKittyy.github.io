@@ -778,7 +778,6 @@ main {
 
 .timeline-item { position: relative; }
 
-.timeline-item:not(:last-child) { margin-bottom: 20px; }
 
 .timeline-item-title {
   font-size: var(--fs-6);
