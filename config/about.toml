@@ -8,7 +8,7 @@ avatar = "./config/assets/avatars/my-avatar.png"
 username = "GoodbyeKittyy" # <-- github user name
 googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1410.2043136569805!2d103.84879009163525!3d1.3805786001513292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16eb64b0249d%3A0xe5f10ff680eed942!2sNanyang%20Polytechnic!5e0!3m2!1sen!2ssg!4v1712729192519!5m2!1sen!2ssg" 
 presentation = """
-I am a Data Scientist and Fullstack Developer from Singapore, working mainly in Process Optimization and Quantitative Forecasting. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I am a Data Scientist and Fullstack Developer from Singapore, working mainly in Digital Supply Chain Process Optimization and Automated Quantitative Forecasting. I enjoy turning complex problems into simple, beautiful and intuitive designs.
 
-My job is to build Fast and Advance Supply Chain Solutions which are functional and attractive. Moreover, I am adept in various automation and coding languages, dedicated towards serving both the Frontend and Backend dynamically.
+My job is to build Fast and Advance Supply Chain Solutions which are functional and attractive. Moreover, I am adept in various Automation Software and Coding Languages, dedicated towards serving both the Frontend and Backend dynamically.
 """
