@@ -1063,7 +1063,7 @@ main {
 /* Add this CSS to your stylesheet */
 .blog-banner-box img {
     width: 100%; /* Set width to 100% to make the image responsive */
-    height: auto; /* Allow the height to adjust proportionally based on the width */
+    height: 100%; /* Allow the height to adjust proportionally based on the width */
     max-width: 300px; /* Set maximum width */
     max-height: 200px; /* Set maximum height */
 }
