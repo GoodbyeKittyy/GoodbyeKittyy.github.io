@@ -1,4 +1,3 @@
-<!-- contact.jinja -->
 <article class="contact" data-page="contact">
 
   <header>
@@ -17,7 +16,7 @@
 
     <h3 class="h3 form-title">Contact Form</h3>
 
-    <form action="mailto:{{about.email}}" method="POST" class="form" data-form>
+    <form class="form" data-form>
 
       <div class="input-wrapper">
         <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -27,10 +26,11 @@
 
       <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-      <button class="form-btn" type="submit" disabled data-form-btn>
+      <!-- Updated button to be an anchor tag -->
+      <a class="form-btn" href="https://api.whatsapp.com/send?phone=+6580137483" target="_blank" rel="noopener noreferrer">
         <ion-icon name="paper-plane"></ion-icon>
         <span>Send Message</span>
-      </button>
+      </a>
 
     </form>
 
