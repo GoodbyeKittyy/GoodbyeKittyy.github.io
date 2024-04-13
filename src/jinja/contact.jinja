@@ -17,17 +17,17 @@
 
     <h3 class="h3 form-title">Contact Form</h3>
 
-    <form action="mailto:{{about.email}}" method="POST" class="form" data-form>
+    <form id="contactForm" class="form">
 
       <div class="input-wrapper">
-        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Full name" required>
 
-        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+        <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required>
       </div>
 
-      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      <textarea id="message" name="message" class="form-input" placeholder="Your Message" required></textarea>
 
-      <button class="form-btn" type="submit" disabled data-form-btn>
+      <button id="sendMessageBtn" class="form-btn" type="submit" disabled>
         <ion-icon name="paper-plane"></ion-icon>
         <span>Send Message</span>
       </button>
@@ -37,3 +37,58 @@
   </section>
 
 </article>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contactForm');
+    const sendMessageBtn = document.getElementById('sendMessageBtn');
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Get form data
+      const fullname = document.getElementById('fullname').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      // Specify your phone number here
+      const phoneNumber = '+6580137483';
+
+      // Construct message body
+      const smsMessage = `New message from: ${fullname}\nEmail: ${email}\nMessage: ${message}\nContact number: ${phoneNumber}`;
+
+      // Send SMS using Twilio
+      fetch('/send-sms', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ 
+          message: smsMessage,
+          phoneNumber: phoneNumber
+        })
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to send SMS');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // SMS sent successfully, handle response if needed
+        console.log('SMS sent successfully', data);
+        // Optionally, redirect the user to a thank-you page or show a success message
+      })
+      .catch(error => {
+        // Handle error
+        console.error('Error sending SMS:', error);
+        // Optionally, show an error message to the user
+      });
+    });
+
+    // Enable/disable the "Send Message" button based on form validity
+    form.addEventListener('input', function () {
+      sendMessageBtn.disabled = !form.checkValidity();
+    });
+  });
+</script>
