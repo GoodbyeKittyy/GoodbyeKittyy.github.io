@@ -27,7 +27,7 @@
       <textarea id="message" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
       <!-- Updated button to trigger JavaScript function -->
-      <button class="form-btn" type="button" onclick="sendWhatsAppMessage()">
+      <button class="form-btn" type="button" onclick="validateAndSend()">
         <ion-icon name="paper-plane"></ion-icon>
         <span>Send Message</span>
       </button>
@@ -37,11 +37,25 @@
   </section>
 
   <script>
-    function sendWhatsAppMessage() {
+    function validateAndSend() {
       // Retrieve user input values
       var fullname = document.getElementById('fullname').value;
       var email = document.getElementById('email').value;
       var message = document.getElementById('message').value;
+
+      // Validate inputs
+      if (fullname.length < 5) {
+        alert('Please enter a full name with at least 5 characters.');
+        return;
+      }
+      if (!email.includes('@')) {
+        alert('Please enter a valid email address.');
+        return;
+      }
+      if (message.length < 10) {
+        alert('Please enter a message with at least 10 characters.');
+        return;
+      }
 
       // Construct WhatsApp message URL with user input
       var whatsappURL = 'https://api.whatsapp.com/send?phone=+6580137483&text=' + encodeURIComponent('Full Name: ' + fullname + '\nEmail: ' + email + '\nMessage: ' + message);
