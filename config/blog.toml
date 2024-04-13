@@ -7,9 +7,25 @@ image = "./config/assets/posts/blog-1.jpg"
 url = "https://drive.google.com/drive/folders/1IdCMxVkMWaI9MMaDtndOuFlFGj8PR4z8?usp=drive_link"
 
 [[post]]
-category = "Volunteer Work"
-title = "Experts Exchange"
+category = "Volunteer for IT Help"
+title = "Experts Exchange Certificates"
 subtitle = "Over 15 certificates earned. Includes topics for VBA ,C#, JavaScript, Exchange, Azure, PowerShell and Web Development"
 datetime = "2019 to 2023"
 image = "./config/assets/posts/blog-1.jpg"
 url = "https://drive.google.com/drive/folders/1JafV_cCvAdqvu89eWCjcthIQeBsBeAVh?usp=sharing"
+
+[[post]]
+category = "Risk Management Course"
+title = "bizSAFE"
+subtitle = "Trained on the WSH Act and its subsidiary regulations including Workplace Safety and Health (Risk Management) Regulations and Code of Practice on Workplace Safety and Health Risk Management (RMCP)"
+datetime = "2020
+image = "./config/assets/posts/blog-1.jpg"
+url = "https://drive.google.com/file/d/1mOWe5g2UtPezOEtsc4nHfPI4e3bMJaSs/view?usp=drive_link"
+
+[[post]]
+category = "SAP ERP Course"
+title = "SAP University Alliances Certificates"
+subtitle = "Modules trained include Netweaver, Production Control and Planning, Materials Management, Sales and Distribution."
+datetime = "2019"
+image = "./config/assets/posts/blog-1.jpg"
+url = "https://drive.google.com/file/d/1psVnKKg8F1dzLCsC59hbcxxhF6L4zLzk/view?usp=sharing"
