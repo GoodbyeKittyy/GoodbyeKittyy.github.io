@@ -1,5 +1,5 @@
 [[post]]
-category = "Courses"
+category = "Various Courses"
 title = "Udemy Certificates"
 subtitle = "Over 15 certificates earned. Includes topics for Excel, VBA, SAP, Quality Management, Supply Chain Management and Industry 4.0"
 datetime = "2023"
@@ -25,7 +25,7 @@ url = "https://drive.google.com/file/d/1mOWe5g2UtPezOEtsc4nHfPI4e3bMJaSs/view?us
 [[post]]
 category = "SAP ERP Course"
 title = "SAP University Alliances Certificates"
-subtitle = "Modules trained include Netweaver, Production Control and Planning, Materials Management, Sales and Distribution."
+subtitle = "Modules trained include Netweaver, Production Control and Planning, Materials Management, Sales and Distribution"
 datetime = "2019"
 image = "./config/assets/posts/blog-1.jpg"
 url = "https://drive.google.com/file/d/1psVnKKg8F1dzLCsC59hbcxxhF6L4zLzk/view?usp=sharing"
