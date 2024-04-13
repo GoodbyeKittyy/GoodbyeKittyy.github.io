@@ -19,21 +19,36 @@
     <form class="form" data-form>
 
       <div class="input-wrapper">
-        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+        <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
       </div>
 
-      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      <textarea id="message" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-      <!-- Updated button to be an anchor tag -->
-      <a class="form-btn" href="https://wa.me/6580137483" target="_blank" rel="noopener noreferrer">
+      <!-- Updated button to trigger JavaScript function -->
+      <button class="form-btn" type="button" onclick="sendWhatsAppMessage()">
         <ion-icon name="paper-plane"></ion-icon>
         <span>Send Message</span>
-      </a>
+      </button>
 
     </form>
 
   </section>
+
+  <script>
+    function sendWhatsAppMessage() {
+      // Retrieve user input values
+      var fullname = document.getElementById('fullname').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+
+      // Construct WhatsApp message URL with user input
+      var whatsappURL = 'https://api.whatsapp.com/send?phone=+6580137483&text=' + encodeURIComponent('Full Name: ' + fullname + '\nEmail: ' + email + '\nMessage: ' + message);
+
+      // Open WhatsApp URL in a new window
+      window.open(whatsappURL, '_blank');
+    }
+  </script>
 
 </article>
