@@ -36,33 +36,38 @@
 
   </section>
 
-  <script>
-    function validateAndSend() {
-      // Retrieve user input values
-      var fullname = document.getElementById('fullname').value;
-      var email = document.getElementById('email').value;
-      var message = document.getElementById('message').value;
+ <script>
+  function validateAndSend() {
+    // Retrieve user input values
+    var fullname = document.getElementById('fullname').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
 
-      // Validate inputs
-      if (fullname.length < 5) {
-        alert('Please enter a full name with at least 5 characters.');
-        return;
-      }
-      if (!email.includes('@')) {
-        alert('Please enter a valid email address.');
-        return;
-      }
-      if (message.length < 10) {
-        alert('Please enter a message with at least 10 characters.');
-        return;
-      }
+    // Variable to store error messages
+    var errors = '';
 
-      // Construct WhatsApp message URL with user input
-      var whatsappURL = 'https://api.whatsapp.com/send?phone=+6580137483&text=' + encodeURIComponent('Full Name: ' + fullname + '\nEmail: ' + email + '\nMessage: ' + message);
-
-      // Open WhatsApp URL in a new window
-      window.open(whatsappURL, '_blank');
+    // Validate inputs
+    if (fullname.length < 5) {
+      errors += 'Please enter a full name with at least 5 characters.\n';
     }
-  </script>
+    if (!email.includes('@')) {
+      errors += 'Please enter a valid email address.\n';
+    }
+    if (message.length < 10) {
+      errors += 'Please enter a message with at least 10 characters.\n';
+    }
 
-</article>
+    // If there are errors, display them in a single alert
+    if (errors) {
+      alert(errors);
+      return;
+    }
+
+    // Construct WhatsApp message URL with user input
+    var whatsappURL = 'https://api.whatsapp.com/send?phone=+6580137483&text=' + encodeURIComponent('Full Name: ' + fullname + '\nEmail: ' + email + '\nMessage: ' + message);
+
+    // Open WhatsApp URL in a new window
+    window.open(whatsappURL, '_blank');
+  }
+</script>
+
