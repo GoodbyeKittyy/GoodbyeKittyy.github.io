@@ -1,3 +1,4 @@
+<!-- portfolio.jinja -->
 <article class="portfolio" data-page="portfolio">
 
   <header>
@@ -12,13 +13,10 @@
         <button class="active" data-filter-btn>All</button>
       </li>
 
-      {% for i, category in enumerate(categories) %}
-        {% if i % 5 == 0 %}
-          </ul><ul class="filter-list">
-        {% endif %}
-        <li class="filter-item">
-          <button data-filter-btn>{{category}}</button>
-        </li>
+      {% for category in categories %}
+      <li class="filter-item">
+        <button data-filter-btn>{{category}}</button>
+      </li>
       {% endfor %}
 
     </ul>
@@ -41,13 +39,10 @@
           <button data-select-item>All</button>
         </li>
 
-        {% for i, category in enumerate(categories) %}
-          {% if i % 5 == 0 %}
-            </ul><ul class="select-list">
-          {% endif %}
-          <li class="select-item">
-            <button data-select-item>{{category}}</button>
-          </li>
+        {% for category in categories %}
+        <li class="select-item">
+          <button data-select-item>{{category}}</button>
+        </li>
         {% endfor %}
 
       </ul>
