@@ -1,4 +1,28 @@
 [[project]]
+title = "Academic Awards"
+category = "Awards & Testimonials"
+image = "https://i.imgur.com/ANDVQ4o.png"
+url = "https://drive.google.com/drive/folders/1pCDfs-Pzc30kWDXU_EA7zswG5MTN4lQD?usp=sharing"
+
+[[project]]
+title = "Testimonial from TSH Group Pte Ltd"
+category = "Awards & Testimonials"
+image = "https://drive.google.com/file/d/1e1WNxBT9Z_pJosoFVZ5_pZXUO2MJ-MXp/view?usp=sharing"
+url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+
+[[project]]
+title = "Testimonial from Experts Exchange"
+category = "Awards & Testimonials"
+image = "https://i.imgur.com/ANDVQ4o.png"
+url = "https://drive.google.com/file/d/1s2oO2EFdzmUFzzb1JZuzcFmmhVqAsflQ/view?usp=sharing"
+
+[[project]]
+title = "Testimonial from Epson Singapore Pte Ltd"
+category = "Awards & Testimonials"
+image = "https://i.imgur.com/ANDVQ4o.png"
+url = "https://drive.google.com/file/d/18qfuGxKRcbjC3CN8hwKeckagqtAgf6iB/view?usp=sharing"
+
+[[project]]
 title = "Flutter Cinemapedia App"
 category = "Mobile ONLY"
 image = "https://i.imgur.com/ANDVQ4o.png"
