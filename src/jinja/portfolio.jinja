@@ -12,21 +12,19 @@
         <button class="active" data-filter-btn>All</button>
       </li>
 
-      {% set num_categories = categories | length %}
-      {% set num_per_row = 5 %}
-      {% set num_rows = (num_categories // num_per_row) + (1 if num_categories % num_per_row != 0 else 0) %}
+      {% set num_categories = categories|length %}
+      {% set num_rows = (num_categories // 5) + 1 %}
 
       {% for row in range(num_rows) %}
-      <div class="filter-row">
-        {% for index in range(num_per_row) %}
-          {% set category_index = row * num_per_row + index %}
-          {% if category_index < num_categories %}
-            <li class="filter-item">
-              <button data-filter-btn>{{ categories[category_index] }}</button>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </div>
+      <li class="filter-item">
+        <ul class="filter-row">
+          {% for category in categories[row*5:min((row+1)*5, num_categories)] %}
+          <li>
+            <button data-filter-btn>{{category}}</button>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
       {% endfor %}
 
     </ul>
