@@ -1,3 +1,4 @@
+<!-- portfolio.jinja -->
 <article class="portfolio" data-page="portfolio">
 
   <header>
@@ -12,18 +13,9 @@
         <button class="active" data-filter-btn>All</button>
       </li>
 
-      {% set num_categories = categories|length %}
-      {% set num_rows = (num_categories // 5) + 1 %}
-
-      {% for row in range(num_rows) %}
+      {% for category in categories %}
       <li class="filter-item">
-        <ul class="filter-row">
-          {% for category in categories[row*5:min((row+1)*5, num_categories)] %}
-          <li>
-            <button data-filter-btn>{{category}}</button>
-          </li>
-          {% endfor %}
-        </ul>
+        <button data-filter-btn>{{category}}</button>
       </li>
       {% endfor %}
 
