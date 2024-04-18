@@ -1,5 +1,4 @@
 <article class="portfolio" data-page="portfolio">
-
   <header>
     <h2 class="h2 article-title">Portfolio</h2>
   </header>
@@ -8,60 +7,77 @@
 
     <ul class="filter-list">
       <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
+        <button class="active" data-filter-btn="all">All</button>
       </li>
 
       {% for category in categories %}
-      {% if loop.index % 5 == 0 %}
-      </ul>
-      <ul class="filter-list">
-      {% endif %}
       <li class="filter-item">
-        <button data-filter-btn>{{category}}</button>
+        <button data-filter-btn="{{ category | lower }}">{{ category }}</button>
       </li>
       {% endfor %}
     </ul>
 
     <div class="filter-select-box">
-
       <button class="filter-select" data-select>
         <div class="select-value" data-select-value>Select category</div>
         <div class="select-icon">
           <ion-icon name="chevron-down"></ion-icon>
         </div>
       </button>
-
       <ul class="select-list">
         <li class="select-item">
-          <button data-select-item>All</button>
+          <button data-select-item="all">All</button>
         </li>
-
         {% for category in categories %}
         <li class="select-item">
-          <button data-select-item>{{category}}</button>
+          <button data-select-item="{{ category | lower }}">{{ category }}</button>
         </li>
         {% endfor %}
       </ul>
-
     </div>
 
     <ul class="project-list">
       {% for project in projects.project %}
-      <li class="project-item  active" data-filter-item data-category="{{project.category | lower}}">
-        <a href="{{project.url}}" target="_blank">
+      <li class="project-item active" data-filter-item data-category="{{ project.category | lower }}">
+        <a href="{{ project.url }}" target="_blank">
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-            <img src="{{project.image}}" alt="{{project.title}}" loading="lazy">
+            <img src="{{ project.image }}" alt="{{ project.title }}" loading="lazy">
           </figure>
-          <h3 class="project-title">{{project.title}}</h3>
-          <p class="project-category">{{project.category}}</p>
+          <h3 class="project-title">{{ project.title }}</h3>
+          <p class="project-category">{{ project.category }}</p>
         </a>
       </li>
       {% endfor %}
     </ul>
 
   </section>
-
 </article>
+
+<script>
+  // JavaScript for filtering projects
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('[data-filter-btn]');
+    const projectItems = document.querySelectorAll('.project-item');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        const category = button.getAttribute('data-filter-btn');
+        filterProjects(category);
+      });
+    });
+
+    function filterProjects(category) {
+      projectItems.forEach(item => {
+        const itemCategory = item.getAttribute('data-category');
+        if (category === 'all' || itemCategory === category) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>
