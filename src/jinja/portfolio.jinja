@@ -11,6 +11,10 @@
       </li>
 
       {% for category in categories %}
+      {% if loop.index0 % 5 == 0 %}
+      </ul>
+      <ul class="filter-list">
+      {% endif %}
       <li class="filter-item">
         <button data-filter-btn="{{ category | lower }}">{{ category }}</button>
       </li>
