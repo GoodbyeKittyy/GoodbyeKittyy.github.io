@@ -5,27 +5,25 @@
     <h2 class="h2 article-title">Portfolio</h2>
   </header>
 
-<section class="projects">
+  <section class="projects">
 
-  <ul class="filter-list">
+    <ul class="filter-list">
 
-    <li class="filter-item">
-      <button class="active" data-filter-btn>All</button>
-    </li>
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
 
-    {% for category in categories %}
-      {% if loop.index % 5 == 1 %}
+      {% for category in categories %}
+        {% if loop.index % 5 == 0 %}
+          </ul><ul class="filter-list">
+        {% endif %}
         <li class="filter-item">
           <button data-filter-btn>{{category}}</button>
         </li>
-      {% else %}
-        <li class="filter-item">
-          <button data-filter-btn>{{category}}</button>
-        </li>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
 
-  </ul>
+    </ul>
+
 
 </section>
 
