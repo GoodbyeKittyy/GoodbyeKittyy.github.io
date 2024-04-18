@@ -1,5 +1,12 @@
 [[project]]
 title = "Flutter Cinemapedia App"
+category = "Mobile ONLY"
+image = "https://i.imgur.com/ANDVQ4o.png"
+url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+
+
+[[project]]
+title = "Flutter Cinemapedia App"
 category = "Mobile development"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
