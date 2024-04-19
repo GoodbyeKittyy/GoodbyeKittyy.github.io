@@ -1,114 +1,44 @@
 [[project]]
 title = "Academic Awards"
-category = "Awards & Testimonials"
+category1 = "Awards & Testimonials"
 image = "./config/assets/projects/1a.jpg"
 url = "https://drive.google.com/drive/folders/1pCDfs-Pzc30kWDXU_EA7zswG5MTN4lQD?usp=sharing"
 
 [[project]]
 title = "Testimonial from TSH Group Pte Ltd"
-category = "Awards & Testimonials"
+category1 = "Awards & Testimonials"
 image = "./config/assets/projects/2a.jpg"
 url = "https://drive.google.com/file/d/1e1WNxBT9Z_pJosoFVZ5_pZXUO2MJ-MXp/view?usp=sharing"
 
 [[project]]
 title = "Testimonial from Experts Exchange"
-category = "Awards & Testimonials"
+category1 = "Awards & Testimonials"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://drive.google.com/file/d/1s2oO2EFdzmUFzzb1JZuzcFmmhVqAsflQ/view?usp=sharing"
 
 [[project]]
 title = "Testimonial from Epson Singapore Pte Ltd"
-category = "Awards & Testimonials"
+category1 = "Awards & Testimonials"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://drive.google.com/file/d/18qfuGxKRcbjC3CN8hwKeckagqtAgf6iB/view?usp=sharing"
 
 [[project]]
 title = "Flutter Cinemapedia App"
-category = "Mobile ONLY"
+category2 = "Mobile ONLY"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
 
 
 [[project]]
 title = "Flutter Cinemapedia App"
-category = "Mobile development"
+category3 = "Mobile development"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
 
 [[project]]
 title = "Flutter Coffee Shop App"
-category = "Mobile development"
+category3 = "Mobile development"
 image = "https://imgur.com/2nNXhDN.png"
 url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
 
-[[project]]
-title = "Flutter Todo App"
-category = "Mobile development"
-image = "https://imgur.com/7110Lj1.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
 
-[[project]]
-title = "Flutter Travel News App"
-category = "Mobile development"
-image = "https://imgur.com/t5T5Ixa.png"
-url = "https://github.com/ivansaul/flutter_travel_news_app#screenshots"
-
-[[project]]
-title = "Codigo Facilito Downloader"
-category = "Python Scripting"
-image = "https://imgur.com/kyHrBGk.png"
-url = "https://github.com/ivansaul/codigo_facilito_downloader"
-
-[[project]]
-title = "Finance"
-category = "Web development"
-image = "./config/assets/projects/project-1.jpg"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
-
-[[project]]
-title = "Orizon"
-category = "Web development"
-image = "./config/assets/projects/project-2.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
-
-[[project]]
-title = "Fundo"
-category = "Web design"
-image = "./config/assets/projects/project-3.jpg"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
-
-[[project]]
-title = "Brawlhalla"
-category = "Applications"
-image = "./config/assets/projects/project-4.png"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
-
-[[project]]
-title = "DSM."
-category = "Web design"
-image = "./config/assets/projects/project-5.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
-
-[[project]]
-title = "MetaSpark"
-category = "Web design"
-image = "./config/assets/projects/project-6.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
-
-[[project]]
-title = "Summary"
-category = "Web development"
-image = "./config/assets/projects/project-7.png"
-url = "https://github.com/ivansaul/codigo_facilito_downloader"
-
-[[project]]
-title = "Task Manager"
-category = "Applications"
-image = "./config/assets/projects/project-8.jpg"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
-
-[[project]]
-title = "Arrival"
-category = "Web development"
-image = "./config/assets/projects/project-9.png"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
