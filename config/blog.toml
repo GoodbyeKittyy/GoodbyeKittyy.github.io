@@ -3,7 +3,7 @@ category = "Various Courses"
 title = "Udemy Certificates"
 subtitle = "Over 15 certificates earned. Includes topics for Excel, VBA, SAP, Quality Management, Supply Chain Management and Industry 4.0"
 datetime = "2023"
-image = "./config/assets/posts/udemy.jpg"
+image = "./config/assets/posts/udemy.png"
 url = "https://drive.google.com/drive/folders/1IdCMxVkMWaI9MMaDtndOuFlFGj8PR4z8?usp=drive_link"
 
 [[post]]
