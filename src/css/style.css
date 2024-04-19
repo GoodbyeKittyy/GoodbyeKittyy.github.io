@@ -1062,9 +1062,11 @@ main {
 
 /* Add this CSS to your stylesheet */
 .blog-banner-box img {
-  scale(1.5);
+
   width: 100%;
   height: 100%;
+width: 150%; /* Increase the width of the image by 150% */
+  height: 150%; /* Increase the height of the image by 150% */
   object-fit: cover;
   transition: var(--transition-1);
 }
