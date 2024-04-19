@@ -1,3 +1,4 @@
+<!-- portfolio.jinja -->
 <article class="portfolio" data-page="portfolio">
 
   <header>
@@ -12,15 +13,20 @@
         <button class="active" data-filter-btn>All</button>
       </li>
 
-      {% for i in range(1, num_categories + 1) %}
-        {% set category = categories['category' + i|string] %}
+      {% for category in categories %}
         {% if loop.index % 4 == 0 %}
           </ul><ul class="filter-list">
         {% endif %}
         <li class="filter-item">
-          <button data-filter-btn>{{ category }}</button>
+          <button data-filter-btn>{{category}}</button>
         </li>
       {% endfor %}
+
+    </ul>
+
+
+</section>
+
 
     </ul>
 
@@ -42,11 +48,10 @@
           <button data-select-item>All</button>
         </li>
 
-        {% for i in range(1, num_categories + 1) %}
-          {% set category = categories['category' + i|string] %}
-          <li class="select-item">
-            <button data-select-item>{{ category }}</button>
-          </li>
+        {% for category in categories %}
+        <li class="select-item">
+          <button data-select-item>{{category}}</button>
+        </li>
         {% endfor %}
 
       </ul>
@@ -57,20 +62,20 @@
 
       {% for project in projects.project %}
 
-      <li class="project-item  active" data-filter-item data-category="{{ project.category | lower }}">
-        <a href="{{ project.url }}" target="_blank">
+      <li class="project-item  active" data-filter-item data-category="{{project.category | lower}}">
+        <a href="{{project.url}}" target="_blank">
 
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
 
-            <img src="{{ project.image }}" alt="{{ project.title }}" loading="lazy">
+            <img src="{{project.image}}" alt="{{project.title}}" loading="lazy">
           </figure>
 
-          <h3 class="project-title">{{ project.title }}</h3>
+          <h3 class="project-title">{{project.title}}</h3>
 
-          <p class="project-category">{{ project.category }}</p>
+          <p class="project-category">{{project.category}}</p>
 
         </a>
       </li>
