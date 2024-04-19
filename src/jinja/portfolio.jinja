@@ -41,18 +41,25 @@
       </button>
 
       <ul class="select-list">
+  <li class="select-item">
+    <button data-select-item>All</button>
+  </li>
 
-        <li class="select-item">
-          <button data-select-item>All</button>
-        </li>
+  {% for category in ordered_categories_row1 %}
+  <li class="select-item">
+    <button data-select-item>{{ category }}</button>
+  </li>
+  {% endfor %}
 
-        {% for category in ordered_categories %}
-        <li class="select-item">
-          <button data-select-item>{{ category }}</button>
-        </li>
-        {% endfor %}
+  <!-- Add a divider or separator here if needed -->
 
-      </ul>
+  {% for category in ordered_categories_row2 %}
+  <li class="select-item">
+    <button data-select-item>{{ category }}</button>
+  </li>
+  {% endfor %}
+</ul>
+
 
     </div>
 
