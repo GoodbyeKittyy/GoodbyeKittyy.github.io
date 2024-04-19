@@ -24,7 +24,7 @@ url = "https://drive.google.com/file/d/18qfuGxKRcbjC3CN8hwKeckagqtAgf6iB/view?us
 
 [[project]]
 title = "Flutter Cinemapedia App"
-category2 = "Mobile ONLY"
+category = "Mobile ONLY"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
 
@@ -37,7 +37,7 @@ url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
 
 [[project]]
 title = "Flutter Coffee Shop App"
-category3 = "Mobile development"
+category = "Mobile development"
 image = "https://imgur.com/2nNXhDN.png"
 url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
 
