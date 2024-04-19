@@ -1,89 +1,80 @@
-<!-- portfolio.jinja -->
 <article class="portfolio" data-page="portfolio">
-
   <header>
     <h2 class="h2 article-title">Portfolio</h2>
   </header>
-
+  
   <section class="projects">
-
     <ul class="filter-list">
-
       <li class="filter-item">
         <button class="active" data-filter-btn>All</button>
       </li>
-
-      {% for category in categories %}
-        {% if loop.index % 4 == 0 %}
-          </ul><ul class="filter-list">
-        {% endif %}
-        <li class="filter-item">
-          <button data-filter-btn>{{category}}</button>
-        </li>
+      
+      <!-- Define the order of categories explicitly -->
+      {% set category_order = [
+        "Awards & Testimonials",
+        "Mobile development",
+        "Python Scripting",
+        "Web development",
+        "Web design",
+        "Applications"
+      ] %}
+      
+      {% for category in category_order %}
+      <li class="filter-item">
+        <button data-filter-btn>{{ category }}</button>
+      </li>
       {% endfor %}
-
     </ul>
-
-
-</section>
-
-
-    </ul>
-
+    
     <div class="filter-select-box">
-
       <button class="filter-select" data-select>
-
-        <div class="select-value" data-selecct-value>Select category</div>
-
+        <div class="select-value" data-select-value>Select category</div>
         <div class="select-icon">
           <ion-icon name="chevron-down"></ion-icon>
         </div>
-
       </button>
-
+      
       <ul class="select-list">
-
         <li class="select-item">
           <button data-select-item>All</button>
         </li>
-
-        {% for category in categories %}
+        
+        <!-- Repeat the same order for select list -->
+        {% for category in category_order %}
         <li class="select-item">
-          <button data-select-item>{{category}}</button>
+          <button data-select-item>{{ category }}</button>
         </li>
         {% endfor %}
-
       </ul>
-
     </div>
-
+    
     <ul class="project-list">
-
+      {% set projects_by_category = {} %}
       {% for project in projects.project %}
-
-      <li class="project-item  active" data-filter-item data-category="{{project.category | lower}}">
-        <a href="{{project.url}}" target="_blank">
-
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-
-            <img src="{{project.image}}" alt="{{project.title}}" loading="lazy">
-          </figure>
-
-          <h3 class="project-title">{{project.title}}</h3>
-
-          <p class="project-category">{{project.category}}</p>
-
-        </a>
-      </li>
-
+        {% set category = project.category %}
+        {% if category not in projects_by_category %}
+          {% set projects_by_category[category] = [] %}
+        {% endif %}
+        {% set _ = projects_by_category[category].append(project) %}
       {% endfor %}
-
+      
+      <!-- Iterate over projects by category in the desired order -->
+      {% for category in category_order %}
+        {% for project in projects_by_category[category] %}
+          <li class="project-item active" data-filter-item data-category="{{ project.category | lower }}">
+            <a href="{{ project.url }}" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="{{ project.image }}" alt="{{ project.title }}" loading="lazy">
+              </figure>
+              <h3 class="project-title">{{ project.title }}</h3>
+              <p class="project-category">{{ project.category }}</p>
+            </a>
+          </li>
+        {% endfor %}
+      {% endfor %}
     </ul>
-
   </section>
-
 </article>
