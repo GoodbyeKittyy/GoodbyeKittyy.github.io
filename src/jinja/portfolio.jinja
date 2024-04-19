@@ -1,4 +1,3 @@
-<!-- portfolio.jinja -->
 <article class="portfolio" data-page="portfolio">
 
   <header>
@@ -8,18 +7,15 @@
   <section class="projects">
 
     <ul class="filter-list">
-
-      <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
-      </li>
-
+      
       {% set ordered_categories = ['Awards & Testimonials', 'Mobile ONLY', 'Mobile development', 'Fox'] %}
       {% set row_counter = 1 %}
-
-
+      
       {% for category in ordered_categories %}
-        {% if row_counter % 2 == 0 %}
-          </ul><ul class="filter-list">
+        {% if row_counter % 4 == 1 %}
+          {% if row_counter != 1 %}
+            </ul><ul class="filter-list">
+          {% endif %}
         {% endif %}
         <li class="filter-item">
           <button data-filter-btn>{{ category }}</button>
@@ -86,5 +82,3 @@
   </section>
 
 </article>
-
-
