@@ -23,11 +23,40 @@ image = "./config/assets/projects/epson.png"
 url = "https://drive.google.com/file/d/18qfuGxKRcbjC3CN8hwKeckagqtAgf6iB/view?usp=sharing"
 
 [[project]]
-title = "Flutter Cinemapedia App"
-category = "Mobile ONLY"
-image = "https://i.imgur.com/ANDVQ4o.png"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+title = "Backorder Trend Forecasting"
+category = "3D Supply Chain Solutions"
+image = "./config/assets/projects/backorder.png"
+url = "https://github.com/GoodbyeKittyy/Backorder-Trend-Forecasting"
 
+[[project]]
+title = "Order to Delivery KPI Simulation"
+category = "3D Supply Chain Solutions"
+image = "./config/assets/projects/kpi.png"
+url = "https://github.com/GoodbyeKittyy/Order-Creation-to-Delivery-KPI-Simulation"
+
+[[project]]
+title = "Processor Gantt Chart"
+category = "3D Supply Chain Solutions"
+image = "./config/assets/projects/gantt.png"
+url = "https://github.com/GoodbyeKittyy/Processor-Gantt-Chart"
+
+[[project]]
+title = "Pallet Mole FIFO System" 
+category = "3D Supply Chain Solutions"
+image = "./config/assets/projects/palletmole.png"
+url = "https://github.com/GoodbyeKittyy/Scalable-Pallet-Mole-FIFO-System"
+
+[[project]]
+title = "Warehouse Container Optimization"
+category = "3D Supply Chain Solutions"
+image = "./config/assets/projects/container.png"
+url = "https://github.com/GoodbyeKittyy/Advanced-Warehouse-Container-Fulfillment-Optimizer"
+
+[[project]]
+title = "Elevator Shuttle Rack System"
+category = "3D Supply Chain Solutions"
+image = "./config/assets/projects/elevator.png"
+url = "https://github.com/GoodbyeKittyy/Shuttle-Rack-System-With-Elevator"
 
 [[project]]
 title = "Flutter Cinemapedia App"
