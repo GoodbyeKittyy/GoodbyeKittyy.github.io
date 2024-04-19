@@ -1,24 +1,24 @@
 [[project]]
 title = "Academic Awards"
-category1 = "Awards & Testimonials"
+category = "Awards & Testimonials"
 image = "./config/assets/projects/1a.jpg"
 url = "https://drive.google.com/drive/folders/1pCDfs-Pzc30kWDXU_EA7zswG5MTN4lQD?usp=sharing"
 
 [[project]]
 title = "Testimonial from TSH Group Pte Ltd"
-category1 = "Awards & Testimonials"
+category = "Awards & Testimonials"
 image = "./config/assets/projects/2a.jpg"
 url = "https://drive.google.com/file/d/1e1WNxBT9Z_pJosoFVZ5_pZXUO2MJ-MXp/view?usp=sharing"
 
 [[project]]
 title = "Testimonial from Experts Exchange"
-category1 = "Awards & Testimonials"
+category = "Awards & Testimonials"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://drive.google.com/file/d/1s2oO2EFdzmUFzzb1JZuzcFmmhVqAsflQ/view?usp=sharing"
 
 [[project]]
 title = "Testimonial from Epson Singapore Pte Ltd"
-category1 = "Awards & Testimonials"
+category = "Awards & Testimonials"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://drive.google.com/file/d/18qfuGxKRcbjC3CN8hwKeckagqtAgf6iB/view?usp=sharing"
 
@@ -31,7 +31,7 @@ url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
 
 [[project]]
 title = "Flutter Cinemapedia App"
-category3 = "Mobile development"
+category = "Mobile development"
 image = "https://i.imgur.com/ANDVQ4o.png"
 url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
 
