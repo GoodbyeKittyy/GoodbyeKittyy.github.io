@@ -14,22 +14,20 @@
       </li>
 
       {% set ordered_categories = ['Awards & Testimonials', 'Mobile ONLY', 'Mobile development', 'Fox'] %}
-{% set row_counter = 0 %}
+      {% set row_counter = 1 %}
 
-<ul class="filter-list">
-  {% for category in ordered_categories %}
-    {% if row_counter % 2 == 0 %}
-      {% if row_counter != 0 %}
-        </ul><ul class="filter-list">
-      {% endif %}
-    {% endif %}
-    <li class="filter-item">
-      <button data-filter-btn>{{ category }}</button>
-    </li>
-    {% set row_counter = row_counter + 1 %}
-  {% endfor %}
-</ul>
 
+      {% for category in ordered_categories %}
+        {% if row_counter % 2 == 0 %}
+          </ul><ul class="filter-list">
+        {% endif %}
+        <li class="filter-item">
+          <button data-filter-btn>{{ category }}</button>
+        </li>
+        {% set row_counter = row_counter + 1 %}
+      {% endfor %}
+
+    </ul>
 
     <div class="filter-select-box">
 
@@ -88,3 +86,14 @@
   </section>
 
 </article>
+
+this part is working correctly:
+
+{% set ordered_categories = ['Awards & Testimonials', 'Mobile ONLY', 'Mobile development', 'Fox'] %}
+
+
+but this part is not:
+
+{% if row_counter % 2 == 0 %}
+
+it is supposed to restrict each horizontal row to a certain number of categories
