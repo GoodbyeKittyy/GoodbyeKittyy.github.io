@@ -1,6 +1,6 @@
 [[post]]
 category = "Various Courses"
-title = "Udemy Certificates"
+title = "Udemy"
 subtitle = "Over 15 certificates earned. Includes topics for Excel, VBA, SAP, Quality Management, Supply Chain Management and Industry 4.0"
 datetime = "2023"
 image = "./config/assets/posts/udemy.png"
@@ -8,7 +8,7 @@ url = "https://drive.google.com/drive/folders/1IdCMxVkMWaI9MMaDtndOuFlFGj8PR4z8?
 
 [[post]]
 category = "Volunteer for IT Help"
-title = "Experts Exchange Certificates"
+title = "Experts Exchange"
 subtitle = "Over 15 certificates earned. Includes topics for VBA ,C#, JavaScript, Exchange, Azure, PowerShell and Web Development"
 datetime = "2019 to 2023"
 image = "./config/assets/posts/expertsexchange.png"
@@ -24,7 +24,7 @@ url = "https://drive.google.com/file/d/1mOWe5g2UtPezOEtsc4nHfPI4e3bMJaSs/view?us
 
 [[post]]
 category = "SAP ERP Course"
-title = "SAP University Alliances Certificate"
+title = "SAP University Alliances"
 subtitle = "Modules trained include Netweaver, Production Control and Planning, Materials Management, Sales and Distribution"
 datetime = "2019"
 image = "./config/assets/posts/sap.png"
