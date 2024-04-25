@@ -83,8 +83,37 @@ image = "./config/assets/projects/clinic.jpg"
 url = "https://github.com/GoodbyeKittyy/3D-Clinic-Design"
 
 [[project]]
-title = "Flutter Coffee Shop App2"
-category = "Fox"
-image = "https://imgur.com/2nNXhDN.png"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
+title = "Order Management"
+category = "Databases"
+image = "./config/assets/projects/order.png"
+url = "https://github.com/GoodbyeKittyy/SQL-Integrated-Order-Management-System"
 
+[[project]]
+title = "Invoice Blling Management"
+category = "Databases"
+image = "./config/assets/projects/billing.png"
+url = "https://github.com/GoodbyeKittyy/Time-and-Billing-Management-Database"
+
+[[project]]
+title = "Accounts Ledger Management"
+category = "Databases"
+image = "./config/assets/projects/ledger.png"
+url = "https://github.com/GoodbyeKittyy/Accounts-Ledger-Database"
+
+[[project]]
+title = "Loan Amortization Management"
+category = "Databases"
+image = "./config/assets/projects/amortization.png"
+url = "https://github.com/GoodbyeKittyy/Loan-Amortization-Database"
+
+[[project]]
+title = "Personnel Leave Management"
+category = "Databases"
+image = "./config/assets/projects/staffleave.png"
+url = "https://github.com/GoodbyeKittyy/SQL-Integrated-Staff-Leave-Database"
+
+[[project]]
+title = "Membership History Management"
+category = "Databases"
+image = "./config/assets/projects/membership.png"
+url = "https://github.com/GoodbyeKittyy/Membership-Event-History-Database"
