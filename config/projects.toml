@@ -1,4 +1,4 @@
-[[project]]
+i[[project]]
 title = "Academic Awards"
 category = "Awards & Testimonials"
 image = "./config/assets/projects/awards.jpg"
@@ -59,28 +59,28 @@ image = "./config/assets/projects/elevator.png"
 url = "https://github.com/GoodbyeKittyy/Shuttle-Rack-System-With-Elevator"
 
 [[project]]
-title = ""
+title = "Vertical Conveyor"
 category = "3D Blueprints & Architecture"
-image = "./config/assets/projects/.png"
-url = ""
+image = "./config/assets/projects/verticalconveyor.jpg"
+url = "https://github.com/GoodbyeKittyy/3D-Vertical-Conveyor-Design"
 
 [[project]]
-title = ""
+title = "Warehouse"
 category = "3D Blueprints & Architecture"
-image = "./config/assets/projects/.png"
-url = ""
+image = "./config/assets/projects/warehouse.jpg"
+url = "https://github.com/GoodbyeKittyy/3D-Warehouse-Design"
 
 [[project]]
-title = ""
+title = "Office"
 category = "3D Blueprints & Architecture"
-image = "./config/assets/projects/.png"
-url = ""
+image = "./config/assets/projects/office.jpg"
+url = "https://github.com/GoodbyeKittyy/3D-Office-Design"
 
 [[project]]
-title = ""
+title = "Clinic"
 category = "3D Blueprints & Architecture"
-image = "./config/assets/projects/.png"
-url = ""
+image = "./config/assets/projects/clinic.jpg"
+url = "https://github.com/GoodbyeKittyy/3D-Clinic-Design"
 
 [[project]]
 title = "Flutter Coffee Shop App2"
