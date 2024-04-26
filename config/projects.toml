@@ -186,7 +186,7 @@ image = "./config/assets/projects/report.png"
 url = "https://github.com/GoodbyeKittyy/Report-Automation-with-VBA"
 
 [[project]]
-title = "Smart Attendance"
+title = "Smart Attendance Manager"
 category = "Spreadsheets"
 image = "./config/assets/projects/smartattendance.png"
 url = "https://github.com/GoodbyeKittyy/Smart-Attendance-Manager"
