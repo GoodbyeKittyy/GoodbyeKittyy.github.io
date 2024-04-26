@@ -28,6 +28,15 @@
   {% endfor %}
 </ul>
 
+<ul class="filter-list">
+  {% set ordered_categories_row3 = ['Web Development', 'Software & API', 'Game Development'] %}
+  {% for category in ordered_categories_row3 %}
+  <li class="filter-item">
+    <button data-filter-btn>{{ category }}</button>
+  </li>
+  {% endfor %}
+</ul>
+
     <div class="filter-select-box">
 
       <button class="filter-select" data-select>
@@ -58,6 +67,13 @@
     <button data-select-item>{{ category }}</button>
   </li>
   {% endfor %}
+
+  {% for category in ordered_categories_row3 %}
+  <li class="select-item">
+    <button data-select-item>{{ category }}</button>
+  </li>
+  {% endfor %}
+  
 </ul>
 
 
