@@ -154,3 +154,39 @@ title = "Membership History Management"
 category = "Databases"
 image = "./config/assets/projects/membership.png"
 url = "https://github.com/GoodbyeKittyy/Membership-Event-History-Database"
+
+[[project]]
+title = "Triple Exponential Smoothing Forecasting"
+category = "Spreadsheets"
+image = "./config/assets/projects/tripleexpo.png"
+url = "https://github.com/GoodbyeKittyy/Triple-Exponential-Smoothing-Forecasting-Method"
+
+[[project]]
+title = "Various Forecasting Templates "
+category = "Spreadsheets"
+image = "./config/assets/projects/forecasting.png"
+url = "https://github.com/GoodbyeKittyy/Various-Forecasting-Templates"
+
+[[project]]
+title = "Delivery Order and Invoice Data Extractor"
+category = "Spreadsheets"
+image = "./config/assets/projects/doinvoice.png"
+url = "https://github.com/GoodbyeKittyy/Delivery-Order-and-Invoice-Automated-Compiler"
+
+[[project]]
+title = "Accounting Excel VBA Projects"
+category = "Spreadsheets"
+image = "./config/assets/projects/accounting.png"
+url = "https://github.com/GoodbyeKittyy/Accounting-Excel-and-VBA-Work-History"
+
+[[project]]
+title = "Report Automation"
+category = "Spreadsheets"
+image = "./config/assets/projects/report.png"
+url = "https://github.com/GoodbyeKittyy/Report-Automation-with-VBA"
+
+[[project]]
+title = "Smart Attendance"
+category = "Spreadsheets"
+image = "./config/assets/projects/smartattendance.png"
+url = "https://github.com/GoodbyeKittyy/Smart-Attendance-Manager"
