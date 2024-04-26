@@ -83,6 +83,43 @@ image = "./config/assets/projects/clinic.jpg"
 url = "https://github.com/GoodbyeKittyy/3D-Clinic-Design"
 
 [[project]]
+title = "Business Intelligence (Finance, Sales, Marketing, Supply Chain and Executive)"
+category = "Dashboards"
+image = "./config/assets/projects/intelligence.png"
+url = "https://github.com/GoodbyeKittyy/Business-Intelligence-Dashboard"
+
+[[project]]
+title = "Supply Chain Geographical Analysis (Python Integration)"
+category = "Dashboards"
+image = "./config/assets/projects/geographical.png"
+url = "https://github.com/GoodbyeKittyy/Supply-Chain-Geographical-Analysis-Dashboard-With-Python-Integration"
+
+
+[[project]]
+title = "Inventory Management"
+category = "Dashboards"
+image = "./config/assets/projects/inventory.png"
+url = "https://github.com/GoodbyeKittyy/Inventory-Management-Dashboard"
+
+[[project]]
+title = "Quality Management"
+category = "Dashboards"
+image = "./config/assets/projects/quality.png"
+url = "https://github.com/GoodbyeKittyy/Quality-Management-Dashboard"
+
+[[project]]
+title = "Customer Sales"
+category = "Dashboards"
+image = "./config/assets/projects/customer.png"
+url = "https://github.com/GoodbyeKittyy/Customer-Sales-Dashboard"
+
+[[project]]
+title = "HR Statistics"
+category = "Dashboards"
+image = "./config/assets/projects/hr.png"
+url = "https://github.com/GoodbyeKittyy/HR-Statistics-Dashboard"
+
+[[project]]
 title = "Order Management"
 category = "Databases"
 image = "./config/assets/projects/order.png"
