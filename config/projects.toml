@@ -83,7 +83,7 @@ image = "./config/assets/projects/clinic.jpg"
 url = "https://github.com/GoodbyeKittyy/3D-Clinic-Design"
 
 [[project]]
-title = "Business Intelligence (Finance, Sales, Marketing, Supply Chain and Executive)"
+title = "Business Intelligence (Finance, Sales, Marketing, Supply Chain & Executive)"
 category = "Dashboards"
 image = "./config/assets/projects/intelligence.png"
 url = "https://github.com/GoodbyeKittyy/Business-Intelligence-Dashboard"
