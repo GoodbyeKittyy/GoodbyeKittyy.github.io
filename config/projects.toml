@@ -241,3 +241,22 @@ title = "Portfolio Website"
 category = "Web Development"
 image = "./config/assets/projects/portfolio.png"
 url = "https://github.com/GoodbyeKittyy/Portfolio-Website-Template"
+
+
+[[project]]
+title = "POS Accounting and ERP Software"
+category = "Software & API"
+image = "./config/assets/projects/pos.png"
+url = "https://github.com/GoodbyeKittyy/POS-Accounting-and-ERP-Software"
+
+[[project]]
+title = "MS Vulnerability Scanner API"
+category = "Software & API"
+image = "./config/assets/projects/scanner.png"
+url = "https://github.com/GoodbyeKittyy/MS-Vulnerability-Scanner-API"
+
+[[project]]
+title = "Python IDE Software "
+category = "Software & API"
+image = "./config/assets/projects/pyide.png"
+url = "https://github.com/GoodbyeKittyy/Python-IDE-Software"
