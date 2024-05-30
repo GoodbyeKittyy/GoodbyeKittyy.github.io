@@ -190,3 +190,54 @@ title = "Smart Attendance Manager"
 category = "Spreadsheets"
 image = "./config/assets/projects/smartattendance.png"
 url = "https://github.com/GoodbyeKittyy/Smart-Attendance-Manager"
+
+[[project]]
+title = "Container Freight and Warehousing Services Website"
+category = "Web Development"
+image = "./config/assets/projects/freight.png"
+url = "https://github.com/GoodbyeKittyy/Container-Freight-and-Warehousing-Services-Website-Template"
+
+[[project]]
+title = "Hotel Website"
+category = "Web Development"
+image = "./config/assets/projects/hotel.png"
+url = "https://github.com/GoodbyeKittyy/Hotel-Website-Template"
+
+
+[[project]]
+title = "Banking Website"
+category = "Web Development"
+image = "./config/assets/projects/banking.png"
+url = "https://github.com/GoodbyeKittyy/Banking-Website-Template"
+
+[[project]]
+title = "Interior Design"
+category = "Web Development"
+image = "./config/assets/projects/interior.png"
+url = "https://github.com/GoodbyeKittyy/Interior-Design-Website"
+
+[[project]]
+title = "Healthy Meal Prep Website"
+category = "Web Development"
+image = "./config/assets/projects/food.png"
+url = "https://github.com/GoodbyeKittyy/Healthy-Meal-Prep-Website-Template"
+
+[[project]]
+title = "Clothing Brand Website"
+category = "Web Development"
+image = "./config/assets/projects/.png"
+url = "https://github.com/GoodbyeKittyy/Clothing-Brand-Website"
+
+
+[[project]]
+title = "Ecommerce Website"
+category = "Web Development"
+image = "./config/assets/projects/ecomm.png"
+url = "https://github.com/GoodbyeKittyy/Ecommerce-Website-Template"
+
+
+[[project]]
+title = "Portfolio Website"
+category = "Web Development"
+image = "./config/assets/projects/portfolio.png"
+url = "https://github.com/GoodbyeKittyy/Portfolio-Website-Template"
