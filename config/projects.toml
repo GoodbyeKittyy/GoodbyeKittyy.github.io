@@ -225,7 +225,7 @@ url = "https://github.com/GoodbyeKittyy/Healthy-Meal-Prep-Website-Template"
 [[project]]
 title = "Clothing Brand Website"
 category = "Web Development"
-image = "./config/assets/projects/.png"
+image = "./config/assets/projects/clothing.png"
 url = "https://github.com/GoodbyeKittyy/Clothing-Brand-Website"
 
 
