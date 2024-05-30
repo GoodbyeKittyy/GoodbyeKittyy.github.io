@@ -256,7 +256,25 @@ image = "./config/assets/projects/scanner.png"
 url = "https://github.com/GoodbyeKittyy/MS-Vulnerability-Scanner-API"
 
 [[project]]
-title = "Python IDE Software "
+title = "Python IDE Software"
 category = "Software & API"
 image = "./config/assets/projects/pyide.png"
 url = "https://github.com/GoodbyeKittyy/Python-IDE-Software"
+
+[[project]]
+title = "Tank Survival"
+category = "Game Development"
+image = "./config/assets/projects/tank.png"
+url = "https://github.com/GoodbyeKittyy/Tank-Survival-Game/tree/master"
+
+[[project]]
+title = "Krunker Inspired FPS"
+category = "Game Development"
+image = "./config/assets/projects/Krunker.png"
+url = "https://github.com/GoodbyeKittyy/Krunker-Inspired-Game/tree/master"
+
+[[project]]
+title = "Cookie"
+category = "Game Development"
+image = "./config/assets/projects/cookie.png"
+url = "https://github.com/GoodbyeKittyy/Cookie-Clicker-Replica/tree/master"
