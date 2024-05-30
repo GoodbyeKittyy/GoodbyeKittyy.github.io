@@ -270,7 +270,7 @@ url = "https://github.com/GoodbyeKittyy/Tank-Survival-Game/tree/master"
 [[project]]
 title = "Krunker Inspired FPS"
 category = "Game Development"
-image = "./config/assets/projects/Krunker.png"
+image = "./config/assets/projects/krunker.png"
 url = "https://github.com/GoodbyeKittyy/Krunker-Inspired-Game/tree/master"
 
 [[project]]
