@@ -528,7 +528,7 @@ main {
 }
 
 .service-item {
-  position: center;
+  position: relative;
   background: var(--border-gradient-onyx);
   padding: 20px;
   border-radius: 14px;
@@ -562,7 +562,9 @@ main {
 
 .service-item-title { 
   margin: 0; 
-  text-align: left; /* Align text to the left */
+  text-align: center; /* Align text to the left */
+  font-size: 16px; /* Adjust this value to make the font bigger */
+  font-weight: bold; /* Optionally, make the font bold */
 }
 
 
