@@ -514,11 +514,11 @@ main {
  */
 
 .service { 
-  margin-bottom: 35px; 
+  margin-bottom: 0px; 
 }
 
 .service-title { 
-  margin-bottom: 5px; 
+  margin-bottom: 0px; 
 }
 
 .service-list {
@@ -561,9 +561,8 @@ main {
 }
 
 .service-item-title { 
-  margin: 30; 
-  text-align: left; /* Align text to the left */
-  font-size: 20px; /* Adjust this value to make the font bigger */
+  margin: 0; 
+  font-size: 28px; /* Adjust this value to make the font bigger */
   font-weight: bold; /* Optionally, make the font bold */
 }
 
