@@ -562,7 +562,7 @@ main {
 
 .service-item-title { 
   margin-top: 14px; 
-  font-size: 20px; /* Adjust this value to make the font bigger */
+  font-size: 21px; /* Adjust this value to make the font bigger */
   font-weight: bold; /* Optionally, make the font bold */
 }
 
