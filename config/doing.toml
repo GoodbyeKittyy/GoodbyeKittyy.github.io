@@ -1,25 +1,20 @@
 [[doing]]
 title = "Data Analysis & Modeling"
 icon = "./config/assets/icons/DataAnalysis.png"
-text = "Extracting insights from data and visualizing statistical methods: to improve forecasting accuracy etc."
 
 
 [[doing]]
 title = "Automation & Scripting"
 icon = "./config/assets/icons/AutomationScripting.png"
-text = " Mastery of coding languages used in both frontend and backend development. The full list can be found at the end of this page. "
 
 [[doing]]
 title = "Web Development"
 icon = "./config/assets/icons/WebDevelopment.png"
-text = "Robust and scalable web applications to support Supply Chain solutions. Guaranteed intuitive and attractive UI."
 
 [[doing]]
 title = "Process Optimization"
 icon = "./config/assets/icons/ProcessOptimization.png"
-text = " Enhancement of process efficiency in Inventory Management, Demand Planning, Scheduling etc."
 
 [[doing]]
 title = "Software & API"
 icon = "./config/assets/icons/SoftwareAPI.png"
-text = "Knowledgeable in best practices for software architecture and API design, ensuring Quality and Security."
