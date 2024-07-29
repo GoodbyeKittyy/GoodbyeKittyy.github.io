@@ -128,24 +128,26 @@
   </div>
   {% endif %}
 
-  <!--
-          - clients
-        -->
+  <<!--
+  - clients
+-->
 {% if technologies.enabled %}
 <section class="clients">
 
   <h3 class="h3 service-title">Programming & Software Experience</h3>
 
   <ul class="clients-list">
-    {% for icon_name, icon_src in technologies.technologies.items() %}
+    {% for tech, info in technologies.technologies.items() %}
     <li class="clients-item">
-      <a href="#">
-        <img src="{{ icon_src }}" alt="{{ icon_name }} icon" width="80" height="80">
-        <span style="display: block; text-align: center; color: white; font-size: 18px; margin-top: 5px;">{{ icon_name }}</span> <!-- Display icon name below the image -->
+      <a href="{{ info.url }}" target="_blank">
+        <img src="{{ info.icon }}" alt="{{ tech }} icon" width="80" height="80">
+        <span style="display: block; text-align: center; color: white; font-size: 18px; margin-top: 5px;">{{ tech }}</span>
       </a>
     </li>
     {% endfor %}
   </ul>
+
+
 
 </section>
 {% endif %}
