@@ -514,11 +514,11 @@ main {
  */
 
 .service { 
-  margin-bottom: 20px; 
+  margin-bottom: 35px; 
 }
 
 .service-title { 
-  margin-bottom: 0px; 
+  margin-bottom: 20px; 
 }
 
 .service-list {
@@ -557,7 +557,7 @@ main {
 }
 
 .service-content-box { 
-  text-align: center; 
+  text-align: absolute; 
 }
 
 .service-item-title { 
