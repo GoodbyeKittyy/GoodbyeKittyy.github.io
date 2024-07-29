@@ -8,30 +8,30 @@ enabled = true # false
 # Technology I have worked with
 # name = "./.../../icon_path"
 [technologies]
-VBA = "./config/assets/icons/vba.svg"
-Python = "./config/assets/icons/python.svg"
-Java = "./config/assets/icons/java.svg"
-C = "./config/assets/icons/c.svg"
-"C++" = "./config/assets/icons/cplusplus.svg"
-"C#" = "./config/assets/icons/csharp.svg"
-HTML = "./config/assets/icons/html.svg"
-JavaScript = "./config/assets/icons/javascript.svg"
-PHP = "./config/assets/icons/php.svg"
-SAP = "./config/assets/icons/sap.svg"
-Oracle = "./config/assets/icons/oracle.svg"
-"SAGE 300" = "./config/assets/icons/sage.svg"
-FlexSim = "./config/assets/icons/flexsim.svg"
-"Ui Path" = "./config/assets/icons/uipath.svg"
-"Microsoft SQL Server" = "./config/assets/icons/microsoftsqlserver.svg"
-Excel = "./config/assets/icons/microsoftexcel.svg"
-Access = "./config/assets/icons/microsoftaccess.svg"
-Exchange = "./config/assets/icons/microsoftexchange.svg"
-Project = "./config/assets/icons/microsoftproject.svg"
-Visio = "./config/assets/icons/microsoftvisio.svg"
-Azure = "./config/assets/icons/microsoftazure.svg"
-"Power BI" = "./config/assets/icons/powerbi.svg"
-AutoCAD = "./config/assets/icons/autocad.svg"
-Figma = "./config/assets/icons/figma.svg"
-PowerShell = "./config/assets/icons/powershell.svg"
-Linux = "./config/assets/icons/linux.svg"
-Git = "./config/assets/icons/git.svg"
+VBA = { icon = "./config/assets/icons/vba.svg", url = "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications" }
+Python = { icon = "./config/assets/icons/python.svg", url = "https://en.wikipedia.org/wiki/Python_(programming_language)" }
+Java = { icon = "./config/assets/icons/java.svg", url = "https://en.wikipedia.org/wiki/Java_(programming_language)" }
+C = { icon = "./config/assets/icons/c.svg", url = "https://en.wikipedia.org/wiki/C_(programming_language)" }
+"C++" = { icon = "./config/assets/icons/cplusplus.svg", url = "https://en.wikipedia.org/wiki/C%2B%2B" }
+"C#" = { icon = "./config/assets/icons/csharp.svg", url = "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" }
+HTML = { icon = "./config/assets/icons/html.svg", url = "https://en.wikipedia.org/wiki/HTML" }
+JavaScript = { icon = "./config/assets/icons/javascript.svg", url = "https://en.wikipedia.org/wiki/JavaScript" }
+PHP = { icon = "./config/assets/icons/php.svg", url = "https://en.wikipedia.org/wiki/PHP" }
+SAP = { icon = "./config/assets/icons/sap.svg", url = "https://en.wikipedia.org/wiki/SAP_ERP" }
+Oracle = { icon = "./config/assets/icons/oracle.svg", url = "https://en.wikipedia.org/wiki/Oracle_Database" }
+"SAGE 300" = { icon = "./config/assets/icons/sage.svg", url = "https://en.wikipedia.org/wiki/Sage_Group" }
+FlexSim = { icon = "./config/assets/icons/flexsim.svg", url = "https://en.wikipedia.org/wiki/FlexSim" }
+"Ui Path" = { icon = "./config/assets/icons/uipath.svg", url = "https://en.wikipedia.org/wiki/UiPath" }
+"Microsoft SQL Server" = { icon = "./config/assets/icons/microsoftsqlserver.svg", url = "https://en.wikipedia.org/wiki/Microsoft_SQL_Server" }
+Excel = { icon = "./config/assets/icons/microsoftexcel.svg", url = "https://en.wikipedia.org/wiki/Microsoft_Excel" }
+Access = { icon = "./config/assets/icons/microsoftaccess.svg", url = "https://en.wikipedia.org/wiki/Microsoft_Access" }
+Exchange = { icon = "./config/assets/icons/microsoftexchange.svg", url = "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server" }
+Project = { icon = "./config/assets/icons/microsoftproject.svg", url = "https://en.wikipedia.org/wiki/Microsoft_Project" }
+Visio = { icon = "./config/assets/icons/microsoftvisio.svg", url = "https://en.wikipedia.org/wiki/Microsoft_Visio" }
+Azure = { icon = "./config/assets/icons/microsoftazure.svg", url = "https://en.wikipedia.org/wiki/Microsoft_Azure" }
+"Power BI" = { icon = "./config/assets/icons/powerbi.svg", url = "https://en.wikipedia.org/wiki/Power_BI" }
+AutoCAD = { icon = "./config/assets/icons/autocad.svg", url = "https://en.wikipedia.org/wiki/AutoCAD" }
+Figma = { icon = "./config/assets/icons/figma.svg", url = "https://en.wikipedia.org/wiki/Figma_(software)" }
+PowerShell = { icon = "./config/assets/icons/powershell.svg", url = "https://en.wikipedia.org/wiki/PowerShell" }
+Linux = { icon = "./config/assets/icons/linux.svg", url = "https://en.wikipedia.org/wiki/Linux" }
+Git = { icon = "./config/assets/icons/git.svg", url = "https://en.wikipedia.org/wiki/Git" }
