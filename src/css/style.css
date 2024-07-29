@@ -513,9 +513,13 @@ main {
  * #service 
  */
 
-.service { margin-bottom: 35px; }
+.service { 
+  margin-bottom: 35px; 
+}
 
-.service-title { margin-bottom: 20px; }
+.service-title { 
+  margin-bottom: 20px; 
+}
 
 .service-list {
   display: grid;
@@ -530,6 +534,10 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align horizontally */
+  justify-content: center; /* Center align vertically */
 }
 
 .service-item::before {
@@ -541,15 +549,22 @@ main {
   z-index: -1;
 }
 
+.service-icon-box { 
+  margin-bottom: 10px; 
+}
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box img { 
+  margin: auto; 
+}
 
-.service-icon-box img { margin: auto; }
+.service-content-box { 
+  text-align: center; 
+}
 
-.service-content-box { text-align: center; }
-
-.service-item-title { margin-bottom: 10px; }
-
+.service-item-title { 
+  margin-bottom: 10px; 
+  text-align: center; /* Center align text */
+}
 
 
 /**
