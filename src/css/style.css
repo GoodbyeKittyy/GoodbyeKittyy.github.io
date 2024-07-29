@@ -561,9 +561,9 @@ main {
 }
 
 .service-item-title { 
-  margin: 10; 
+  margin: 30; 
   text-align: left; /* Align text to the left */
-  font-size: 24px; /* Adjust this value to make the font bigger */
+  font-size: 20px; /* Adjust this value to make the font bigger */
   font-weight: bold; /* Optionally, make the font bold */
 }
 
