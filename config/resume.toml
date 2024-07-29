@@ -2,10 +2,10 @@
 #################################################
 
 [[experience]]
-title = "Digital Supply Chain Analyst & Researcher"
-timeline = "2024 - Present"
-company = "Republic Polytechnic"
-description = "Support consultancy projects, research and develop new digital solutions for companies, innovate digital tools for industry projects and commercialization."
+title = "Digital Supply Chain Consultant"
+timeline = "2024"
+company = "Republic Polytechnic, Centre of Innovation"
+description = "Support consultancy projects, research and develop new solutions for companies, innovate digital tools for industry projects and commercialization."
 
 [[experience]]
 title = "Supply Chain Management & Quality Management Professional"
@@ -38,13 +38,13 @@ description = "Currently studying as a full-time student."
 title = "Diploma Plus in Business Innovation and Entrepreneurship"
 timeline = "2018 — 2019"
 school = "Republic Polytechnic"
-description = "Studied as a full-time student. Inducted into Director's Roll of Honour. Graduating GPA: 3.48 "
+description = "Studied as a full-time student. Inducted into Director's Roll of Honour. Graduating GPA: 3.00 "
 
 [[education]]
 title = "Diploma in Supply Chain Management"
 timeline = "2017 — 2020"
 school = "Republic Polytechnic"
-description = "Studied as a full-time student. Graduating GPA: 3.00"
+description = "Studied as a full-time student. Graduating GPA: 3.48"
 
 
 [[education]]
@@ -72,7 +72,7 @@ value = "70%"
 
 [[skill]]
 title = "Web Development"
-value = "60%"
+value = "70%"
 
 [[skill]]
 title = "ERP Systems"
