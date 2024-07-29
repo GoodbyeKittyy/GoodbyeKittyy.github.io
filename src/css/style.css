@@ -528,7 +528,7 @@ main {
 }
 
 .service-item {
-  position: relative;
+  position: center;
   background: var(--border-gradient-onyx);
   padding: 20px;
   border-radius: 14px;
