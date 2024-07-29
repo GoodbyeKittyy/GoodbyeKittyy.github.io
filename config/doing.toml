@@ -1,20 +1,20 @@
 [[doing]]
-title = "\nData Analysis & Modeling"
+title = "\n Data Analysis & Modeling"
 icon = "./config/assets/icons/DataAnalysis.png"
 
 
 [[doing]]
-title = "\nAutomation & Scripting"
+title = "\n Automation & Scripting"
 icon = "./config/assets/icons/AutomationScripting.png"
 
 [[doing]]
-title = "\nWeb Development"
+title = "\n Web Development"
 icon = "./config/assets/icons/WebDevelopment.png"
 
 [[doing]]
-title = "\nProcess Optimization"
+title = "\n Process Optimization"
 icon = "./config/assets/icons/ProcessOptimization.png"
 
 [[doing]]
-title = "\nSoftware & API"
+title = "\n Software & API"
 icon = "./config/assets/icons/SoftwareAPI.png"
