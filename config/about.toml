@@ -8,7 +8,11 @@ avatar = "./config/assets/avatars/my-avatar.png"
 username = "GoodbyeKittyy" # <-- github user name
 googlemaps =  "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.661612111953!2d103.848787!3d1.3774334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16e96db0a1ab%3A0x3d0be54fbbd6e1cd!2sSingapore%20Institute%20of%20Technology%20(SIT%40NYP)!5e0!3m2!1sen!2ssg!4v1713424726657!5m2!1sen!2ssg"
 presentation = """
-I am a Digital Supply Chain Specialist and Fullstack Developer from Singapore, working mainly in Digital Supply Chain Process Optimization and Automated Quantitative Forecasting. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I am a Digital Supply Chain Specialist and Fullstack Developer from Singapore.
 
-My job is to build Fast and Advanced Supply Chain Solutions which are functional and attractive. Moreover, I am adept in various Automation Software and Coding Languages, dedicated towards serving both the Frontend and Backend dynamically.
+I am competent in Digital Supply Chain Process Optimization and Many Essential Programming Languages. 
+
+I enjoy turning complex problems into straightforward solutions with intuitive designs.
+
+I am dedicated toward to serving your Frontend and Backend dynamically. I hope to hear from you soon!
 """
