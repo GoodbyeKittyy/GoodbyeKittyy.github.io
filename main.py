@@ -3,7 +3,6 @@ from datetime import datetime
 import toml  # type: ignore
 from jinja2 import Environment, FileSystemLoader  # type: ignore
 
-
 class Portfolio:
     def __init__(self):
         self.about_toml = "config/about.toml"
