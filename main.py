@@ -1,4 +1,5 @@
 from datetime import datetime
+from flask import Flask, render_template_string
 
 import toml  # type: ignore
 from jinja2 import Environment, FileSystemLoader  # type: ignore
@@ -68,7 +69,10 @@ class Portfolio:
         return set(filters)
 
 
-if __name__ == "__main__":
+app = Flask(__name__)
+
+@app.route("/")
+def index():
     portfolio = Portfolio()
     about = portfolio.about()
     doing = portfolio.doing()
@@ -97,4 +101,8 @@ if __name__ == "__main__":
         categories=categories,
     )
 
-    portfolio.write_file("index.html", html_render)
+    return render_template_string(html_render)
+
+
+if __name__ == "__main__":
+    app.run()
