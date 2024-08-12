@@ -89,6 +89,7 @@ def index():
 
     template = env.get_template("index.jinja")
 
+    
     html_render = template.render(
         about=about,
         social=social,
