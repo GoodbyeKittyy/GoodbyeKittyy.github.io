@@ -1,8 +1,8 @@
 from datetime import datetime
-from flask import Flask, render_template_string
 
 import toml  # type: ignore
 from jinja2 import Environment, FileSystemLoader  # type: ignore
+
 
 class Portfolio:
     def __init__(self):
@@ -69,10 +69,7 @@ class Portfolio:
         return set(filters)
 
 
-app = Flask(__name__)
-
-@app.route("/")
-def index():
+if __name__ == "__main__":
     portfolio = Portfolio()
     about = portfolio.about()
     doing = portfolio.doing()
@@ -89,7 +86,6 @@ def index():
 
     template = env.get_template("index.jinja")
 
-    
     html_render = template.render(
         about=about,
         social=social,
@@ -102,8 +98,4 @@ def index():
         categories=categories,
     )
 
-    return render_template_string(html_render)
-
-
-if __name__ == "__main__":
-    app.run()
+    portfolio.write_file("index.html", html_render)
