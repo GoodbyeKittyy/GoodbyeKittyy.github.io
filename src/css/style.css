@@ -347,12 +347,14 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-3);
+  font-size: var(--fs-3); /* Smaller font size */
   font-weight: var(--fw-300);
-  width: max-content;
+  max-width: 200px; /* Adjust this value as needed */
   padding: 3px 14px;
   border-radius: 8px;
+  white-space: normal; /* Allows text to wrap */
 }
+
 
 .info_more-btn {
   position: absolute;
